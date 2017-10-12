@@ -19,10 +19,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4000013748199258}
-  - component: {fileID: 205000011596109118}
+  - component: {fileID: 65408811342889596}
+  - component: {fileID: 114268082485033476}
   m_Layer: 0
   m_Name: BananaOpen
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,8 +82,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012520783084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 29.2, y: 21.622, z: 37.86}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children:
   - {fileID: 4000013793616972}
   - {fileID: 4000012834079524}
@@ -132,6 +133,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23000013066685792
 MeshRenderer:
@@ -163,6 +165,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33000011386702216
 MeshFilter:
@@ -178,24 +181,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013152504120}
   m_Mesh: {fileID: 4300002, guid: 7ecce2dcaeeaabd45a2ce5b98ce3bae7, type: 3}
---- !u!205 &205000011596109118
-LODGroup:
+--- !u!65 &65408811342889596
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012520783084}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.0010726303, y: 0.080324925, z: -0.0010427684}
-  m_Size: 0.15998127
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LODs:
-  - screenRelativeHeight: 0.2667542
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 23000013066685792}
-  - screenRelativeHeight: 0.01
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 23000011433038064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13471311, y: 0.1685151, z: 0.1789608}
+  m_Center: {x: -0.00030565262, y: 0.08131528, z: 0.002954483}
+--- !u!114 &114268082485033476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012520783084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6dd73ecba30e9e4ca2f7b6bf3a8db76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

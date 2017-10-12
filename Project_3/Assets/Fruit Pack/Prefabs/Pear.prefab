@@ -53,11 +53,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4000013089370440}
-  - component: {fileID: 205000012269396850}
   - component: {fileID: 65000010828692110}
   m_Layer: 0
   m_Name: Pear
-  m_TagString: Untagged
+  m_TagString: Mega
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +132,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23000012741578338
 MeshRenderer:
@@ -164,6 +164,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33000012428410818
 MeshFilter:
@@ -186,29 +187,8 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013251634520}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.08400971, y: 0.15003213, z: 0.08027937}
   m_Center: {x: -0.0003721863, y: 0.0749509, z: 0.0007176511}
---- !u!205 &205000012269396850
-LODGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013251634520}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.0003721863, y: 0.0749509, z: -0.0007176511}
-  m_Size: 0.15003213
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LODs:
-  - screenRelativeHeight: 0.36892456
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 23000010539593242}
-  - screenRelativeHeight: 0.01
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 23000012741578338}
-  m_Enabled: 1

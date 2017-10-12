@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Fruit
+  - Mega
   layers:
   - Default
   - TransparentFX
