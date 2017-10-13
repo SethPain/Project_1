@@ -7,6 +7,9 @@ TagManager:
   - Fire
   - Fruit
   - Mega
+  - Junk
+  - Fruit_2
+  - Junk_2
   layers:
   - Default
   - TransparentFX
