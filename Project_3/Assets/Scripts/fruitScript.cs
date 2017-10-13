@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class fruitScript : MonoBehaviour {
 
+    AudioSource sound;
+
 	// Use this for initialization
 	void Start () {
-		
-	}
+        sound = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -16,7 +18,9 @@ public class fruitScript : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col){
 		if (col.gameObject.CompareTag ("Player")) {
-			Destroy (gameObject);
+            sound.Play();
+            Destroy (gameObject, .25f);
+            
 		}
 	}
 }

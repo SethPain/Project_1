@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HealthCount : MonoBehaviour {
 
+
     public int healthTotal = 100;
     public Text countText;
     public bool isInvulnerable = false;
@@ -23,7 +24,7 @@ public class HealthCount : MonoBehaviour {
         if (timer <= 0) {
             isInvulnerable = false;
         }
-        countText.text = "Health: " + healthTotal.ToString();
+        countText.text = "Health: " + healthTotal.ToString() + "/600";
     }
 
     void OnTriggerEnter(Collider other) {
