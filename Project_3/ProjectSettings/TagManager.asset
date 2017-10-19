@@ -11,6 +11,8 @@ TagManager:
   - Fruit_2
   - Junk_2
   - Bound
+  - Cactus
+  - Ball
   layers:
   - Default
   - TransparentFX

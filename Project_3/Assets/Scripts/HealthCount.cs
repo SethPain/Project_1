@@ -53,6 +53,9 @@ public class HealthCount : MonoBehaviour {
         {
             healthTotal -= 20;
             // countText.text = "Health: " + healthTotal.ToString();
+        } else if (other.gameObject.CompareTag("Cactus"))
+        {
+                healthTotal -= 5;
         }
     }
 }
