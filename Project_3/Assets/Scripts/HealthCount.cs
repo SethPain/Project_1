@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthCount : MonoBehaviour {
 
@@ -25,6 +26,7 @@ public class HealthCount : MonoBehaviour {
             isInvulnerable = false;
         }
         countText.text = "Health: " + healthTotal.ToString() + "/600";
+        
     }
 
     void OnTriggerEnter(Collider other) {
@@ -57,5 +59,21 @@ public class HealthCount : MonoBehaviour {
         {
                 healthTotal -= 5;
         }
+        if (healthTotal >= 600)
+            EndGame();
+        if (healthTotal <= 0)
+            GameOver();
+
+
+    }
+
+    void EndGame()
+    {
+        SceneManager.LoadScene("GameEndScene");
+    }
+
+    void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 }

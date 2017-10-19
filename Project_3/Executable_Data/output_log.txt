@@ -1,0 +1,51 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GPU (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   22.21.13.8178
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Seth\Documents\GitHub\Project_1\Project_3\Executable_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.049 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.097503 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4de4 -> priority: 1 
+  Thread -> id: 5030 -> priority: 1 
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.039627 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3135.
+Total: 1.301714 ms (FindLiveObjects: 0.220845 ms CreateObjectMapping: 0.071137 ms MarkObjects: 0.515306 ms  DeleteObjects: 0.493363 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 28.066851 ms
+
+Unloading 166 unused Assets to reduce memory usage. Loaded Objects now: 473.
+Total: 6.082808 ms (FindLiveObjects: 0.057334 ms CreateObjectMapping: 0.034684 ms MarkObjects: 0.247743 ms  DeleteObjects: 5.742338 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.602370 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 468.
+Total: 0.248097 ms (FindLiveObjects: 0.031498 ms CreateObjectMapping: 0.014510 ms MarkObjects: 0.187223 ms  DeleteObjects: 0.014156 ms)
+
