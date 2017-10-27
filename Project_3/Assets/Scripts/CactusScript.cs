@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CactusScript : MonoBehaviour {
 
+    AudioSource sound; 
+
 	// Use this for initialization
 	void Start () {
-		
-	}
+        sound = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -17,6 +19,8 @@ public class CactusScript : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Ball")
-            Destroy(gameObject,0);
+            Destroy(gameObject, 0);
+        if (other.gameObject.CompareTag("Player"))
+            sound.Play();
     }
 }
